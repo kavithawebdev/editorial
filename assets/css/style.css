@@ -1,12 +1,177 @@
 * {
    font-family: "Roboto Slab", serif;
+
 }
 
-/*body {
+body{
+   margin:0;
+}
 
-   width: 90%;
-   margin: auto;
-}*/
+.search-container{
+  
+   padding:10px;
+}
+aside{
+   background-color: #eff1f2;
+}
+.search-container.fa_fa-search{
+   color:#f3f6f7;
+   
+}
+i.fa.fa-search{
+   position: relative;
+    left: -30px;
+}
+.form:hover{
+  border-radius: 8px;
+  outline: 1px solid #f56a6a;
+}
+input.form{
+   border-radius: 8px;
+   padding:10px 10px;
+   width:80%;
+   color:#f3f6f7;
+}
+
+.side-nav-container{
+  padding:20px;
+   background-color: #f3f6f7;
+}
+
+.header{
+   border-bottom: solid 3px #f56a6a;
+   padding-bottom: 8px;
+   display:inline-block;
+}
+
+.nav-content>.nav-links>li >a{
+   text-decoration: none;
+   font-size: 12px;
+   letter-spacing: 1px;
+   color:#0a0a0c;
+   
+}
+.nav-content>.nav-links>li >a:hover{
+   color:#f56a6a;
+}
+
+.nav-links{
+   list-style: none;
+   padding: inherit;
+   
+
+
+
+
+
+
+
+
+   
+}
+.link{
+   
+border-bottom:#d7dde2 1px solid;
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+
+.dropdown{
+   padding:inherit;
+   list-style: none;
+   position: relative;
+   display: none;
+
+}
+
+.dropdown:hover{
+    visibility: visible; 
+}
+
+
+ .dropdown  a{
+   text-decoration: none;
+   font-size: 11px;
+   letter-spacing: 1px;
+   color:#7f888f;
+   
+   
+}
+
+.nav-section-wrappers{
+   display:inline-block;
+}
+  
+.nav-img{
+   border-radius: 6px;
+}
+.nav-section-item{
+       border-bottom: #d7dde2 solid 1px;
+       padding-top:30px;
+       padding-bottom: 20px;
+       
+      }
+
+.color-grey1{
+   color:#7f888f;
+   font-size: 13px;
+   letter-spacing: .5px;
+   line-height: 23px;
+}
+.nav-section2{
+   padding-top: 20px;
+
+}
+
+
+.fa-envelope,.fa-phone-flip,.fa-house-chimney{
+   color:#f56a6a;
+
+}
+
+
+.cont-icon{
+   border-bottom: #d7dde2 solid 1px;
+   padding-bottom:30px ;
+   padding-top: 30px;
+   color: #7f888f;
+   font-size: 13px;
+   list-style: none;
+}
+.cont-icon>a{
+   text-decoration-style: dotted;
+   padding-left:10px;  
+
+}
+
+.footer{
+   padding-top: 20px;
+   color:#7f888f;
+   display:inline-block;
+   font-size: 13px;
+}
+.footer>p>a{
+   text-decoration-style: dotted;
+}
+
+.body{
+   display:flex;
+
+   
+}
+
+
+
+
+
+
+
+
+
+/*maincontent*/
+.main-content{
+   padding:20px;
+}
 
 #header-primary {
    display: flex;
@@ -81,11 +246,11 @@ button {
    color: #f56a6a;
    border: 2px solid red;
    border-radius: 4px;
-   padding: 8px;
+   padding: 8px 20px;
    list-style: none;
    text-decoration: none;
    text-align: center;
-   font-size: 12px;
+   font-size: 11px;
    cursor: pointer;
    background-color: transparent;
 
@@ -117,7 +282,7 @@ button {
 
 /*section2*/
 
-.cards-header>h2 {
+.section-header>h2 {
    text-decoration: underline red solid 3px;
    text-underline-offset: 20px;
    margin-top: 60px;
